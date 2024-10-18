@@ -4,265 +4,147 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3650cc3-ed90-48c4-b80f-f5255ca306dc" name="Changes" comment="First Commit do trabalho completo de psoft">
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/API.postman_environment.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Bonus/US27/WP4.7-27-SD.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Bonus/US28/WP4.7-28-SD.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Books/WP2A/WP2A-07-SD.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Books/WP2A/WP2A-08-SD.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Books/WP2A/WP2A-09-SD.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Books/WP2A/WP2A-10-SD.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Books/WP2A/WPA2A-client_questions.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Books/WP2B/WP2B-07-SD.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Books/WP2B/WP2B-08-SD.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Books/WP2B/WP2B-09-SD.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Books/WP2B/WP2B-10-SD.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Books/WP2B/WPA2B-client_questions.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/DM.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/DeclaraçãoHonra_Autoavaliação.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Lendings/WP4A/SD_US15.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Lendings/WP4A/SD_US16.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Lendings/WP4A/SD_US17.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Lendings/WP4A/client_questions.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Lendings/WP4B/SD_US14.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Lendings/WP4B/SD_US23.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Lendings/WP4B/US15-19-30/SD_US15_AvgDuration.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Lendings/WP4B/US15-19-30/SD_US19_AvgDurationMonthGenre.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Lendings/WP4B/US15-19-30/SD_US30_AvgDurationBook.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Lendings/WP4B/US15-19-30/SD_routing.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Library management.postman_collection.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Readers/WP3A/11/WP3A-11-SD.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Readers/WP3A/12/WP3A-12-SD.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Readers/WP3A/13/WP3A-13-SD.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Readers/WP3A/14/WP3A-14-SD.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Readers/WP3A/WP3A_client_questions.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Readers/WP3B/11/WP3B-11-SD.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Readers/WP3B/12/WP3B-12-SD.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Readers/WP3B/13/WP3B-13-SD.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Readers/WP3B/WP3B_client_questions.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Reporting/WP5/16/WP5-16-SD.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Reporting/WP5/17/US17-SD.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Reporting/WP5/17/US17-SD.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Reporting/WP5/18/WP5-18-SD.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Reporting/WP5_client_questions.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/Swagger Link" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/WP1A-Authors/API.postman_environment.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/WP1A-Authors/Psoft-Projeto.postman_collection.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/WP1A-Authors/US03-SD.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/WP1A-Authors/US03-SD.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/WP1A-Authors/US04-SD.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/WP1A-Authors/US04-SD.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/WP1A-Authors/US05-SD.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/WP1A-Authors/US05-SD.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/WP1A-Authors/US06-SD.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/WP1A-Authors/US06-SD.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/WP1A-Authors/USGlobalAuthor.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/WP1B-Authors/API.postman_environment.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/WP1B-Authors/Psoft-Projeto.postman_collection.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/WP1B-Authors/US03-SD-Create.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/WP1B-Authors/US03-SD-Create.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/WP1B-Authors/US03-SD-Update.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/WP1B-Authors/US03-SD-Update.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/WP1B-Authors/US04-SD.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/WP1B-Authors/US04-SD.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/WP1B-Authors/US05-SD.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/WP1B-Authors/US05-SD.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/WP1B-Authors/US06-SD.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/WP1B-Authors/US06-SD.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/docs/WP1B-Authors/USGlobalAuthor.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/PsoftApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/apiAuth/AuthApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/apiAuth/AuthApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/apiAuth/AuthRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/apiAuth/AuthRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/authormanagement/api/AuthorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/authormanagement/api/AuthorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/authormanagement/api/AuthorView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/authormanagement/api/AuthorView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/authormanagement/api/CoAuthorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/authormanagement/api/CoAuthorResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/authormanagement/api/PhotoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/authormanagement/api/PhotoResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/authormanagement/api/TopAuthor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/authormanagement/api/TopAuthor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/authormanagement/api/TopReaderPerGenreDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/authormanagement/api/TopReaderPerGenreDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/authormanagement/model/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/authormanagement/model/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/authormanagement/repositories/AuthorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/authormanagement/repositories/AuthorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/authormanagement/service/AuthorEditMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/authormanagement/service/AuthorEditMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/authormanagement/service/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/authormanagement/service/AuthorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/authormanagement/service/AuthorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/authormanagement/service/AuthorServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/authormanagement/service/BookResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/authormanagement/service/BookResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/authormanagement/service/CreateAuthorRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/authormanagement/service/CreateAuthorRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/authormanagement/service/UpdateAuthorRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/authormanagement/service/UpdateAuthorRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/bookmanagement/api/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/bookmanagement/api/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/bookmanagement/api/BookView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/bookmanagement/api/BookView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/bookmanagement/api/BookViewMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/bookmanagement/api/BookViewMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/bookmanagement/api/ListResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/bookmanagement/api/ListResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/bookmanagement/api/UploadFileResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/bookmanagement/api/UploadFileResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/bookmanagement/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/bookmanagement/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/bookmanagement/model/ISBN.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/bookmanagement/model/ISBN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/bookmanagement/model/dto/SimplifiedBookDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/bookmanagement/model/dto/SimplifiedBookDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/bookmanagement/model/dto/TopBookLentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/bookmanagement/model/dto/TopBookLentDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/bookmanagement/repositories/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/bookmanagement/repositories/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/bookmanagement/services/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/bookmanagement/services/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/bookmanagement/services/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/bookmanagement/services/BookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/bookmanagement/services/EditBookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/bookmanagement/services/EditBookMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/bookmanagement/services/EditBookRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/bookmanagement/services/EditBookRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/bookmanagement/services/FileStorageException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/bookmanagement/services/FileStorageException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/bookmanagement/services/FileStorageProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/bookmanagement/services/FileStorageProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/bookmanagement/services/FileStorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/bookmanagement/services/FileStorageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/bookmanagement/services/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/bookmanagement/services/Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/bookmanagement/utils/CoverUrlUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/bookmanagement/utils/CoverUrlUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/bookmanagement/utils/FileValidationUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/bookmanagement/utils/FileValidationUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/bootstrapping/AuthorBootstrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/bootstrapping/BookBootstrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/bootstrapping/DatabaseCleanup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/bootstrapping/ForbiddenwordsBootstraper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/bootstrapping/GenreBootstrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/bootstrapping/LendingBootstrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/bootstrapping/UserBootstrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/configuration/ApiConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/configuration/JpaConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/configuration/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/exceptions/BadRequestException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/exceptions/ConflictException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/exceptions/GlobalExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/exceptions/NotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/forbiddenWords/infrastructure/repositories/impl/SpringDataForbiddenwordRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/forbiddenWords/model/Forbiddenword.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/forbiddenWords/repository/ForbiddenwordRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/genre/infrastructure/repositories/impl/SpringDataGenreRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/genre/infrastructure/repositories/impl/SpringDataGenreRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/genre/model/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/genre/model/Genre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/genre/model/TopGenreDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/genre/model/TopGenreDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/genre/repository/GenreRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/src/main/java/com/sidis/Bags/genre/repository/GenreRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/api/LendingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/api/LendingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/api/LendingViewMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/api/LendingViewMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/api/ReportMonthlyLendingPerReaderView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/api/ReportMonthlyLendingPerReaderView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/api/views/CreateLendingView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/api/views/CreateLendingView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/api/views/FineLendingView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/api/views/FineLendingView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/api/views/LendingPageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/api/views/LendingPageView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/api/views/LendingView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/api/views/LendingView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/api/views/ReportMonthlyLendingPerReaderView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/api/views/ReportMonthlyLendingPerReaderView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/api/views/averages/AverageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/api/views/averages/AverageView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/api/views/averages/BookAveragePageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/api/views/averages/BookAveragePageView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/api/views/averages/BookAverageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/api/views/averages/BookAverageView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/api/views/averages/GenreAveragePageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/api/views/averages/GenreAveragePageView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/api/views/averages/GenreAverageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/api/views/averages/GenreAverageView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/api/views/averages/MonthGenreAverageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/api/views/averages/MonthGenreAverageView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/api/views/averages/YearMonthGenreAveragePageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/api/views/averages/YearMonthGenreAveragePageView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/api/views/averages/YearMonthGenreAverageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/api/views/averages/YearMonthGenreAverageView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/infrastructure/repositories/impl/SpringDataLendingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/infrastructure/repositories/impl/SpringDataLendingRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/model/Fine.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/model/Fine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/model/Lending.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/model/Lending.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/model/LendingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/model/LendingNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/model/LendingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/model/LendingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/model/metrics/ReportMonthlyLending.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/model/metrics/ReportMonthlyLending.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/model/metrics/ReportMonthlyLendingPerReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/model/metrics/ReportMonthlyLendingPerReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/model/metrics/answerDB/LendingAvgPerBookDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/model/metrics/answerDB/LendingAvgPerBookDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/model/metrics/answerDB/LendingAvgPerMonthAndGenreDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/model/metrics/answerDB/LendingAvgPerMonthAndGenreDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/model/metrics/answerDB/LendingCountPerGenreDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/model/metrics/answerDB/LendingCountPerGenreDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/model/metrics/answerDB/LendingReportDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/model/metrics/answerDB/LendingReportDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/model/metrics/averages/Average.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/model/metrics/averages/Average.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/model/metrics/averages/GroupAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/model/metrics/averages/GroupAverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/model/metrics/averages/GroupAveragePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/model/metrics/averages/GroupAveragePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/model/metrics/averages/MonthGroupAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/model/metrics/averages/MonthGroupAverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/model/metrics/averages/YearMonthGroupAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/model/metrics/averages/YearMonthGroupAverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/model/metrics/averages/YearMonthGroupAveragePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/model/metrics/averages/YearMonthGroupAveragePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/repositories/LendingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/repositories/LendingRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/services/ConfigurationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/services/ConfigurationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/services/LendingMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/services/LendingMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/services/LendingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/services/LendingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/services/requests/CreateLendingRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/services/requests/CreateLendingRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/services/requests/ReturnBookRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/services/requests/ReturnBookRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/utils/MonthConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/utils/MonthConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/utils/MonthValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/utils/MonthValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/utils/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/utils/Unit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/lendingmanagement/utils/YearValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/src/main/java/com/sidis/Lendings/lendingmanagement/utils/YearValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/readermanagement/api/ListResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/api/ListResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/readermanagement/api/ReaderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/api/ReaderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/readermanagement/api/ReaderView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/api/ReaderView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/readermanagement/api/ReaderViewMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/api/ReaderViewMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/readermanagement/infrastructure/repositories/impl/SpringDataReaderPfpRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/infrastructure/repositories/impl/SpringDataReaderPfpRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/readermanagement/infrastructure/repositories/impl/SpringDataReaderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/infrastructure/repositories/impl/SpringDataReaderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/readermanagement/model/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/model/Date.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/readermanagement/model/InterestList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/model/InterestList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/readermanagement/model/NameV.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/model/NameV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/readermanagement/model/Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/model/Password.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/readermanagement/model/PhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/model/PhoneNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/readermanagement/model/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/model/Reader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/readermanagement/model/ReaderNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/model/ReaderNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/readermanagement/model/ReaderPfp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/model/ReaderPfp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/readermanagement/repositories/ReaderPfpRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/repositories/ReaderPfpRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/readermanagement/repositories/ReaderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/repositories/ReaderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/readermanagement/services/CreateReaderRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/services/CreateReaderRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/readermanagement/services/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/services/Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/readermanagement/services/PaginationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/services/PaginationRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/readermanagement/services/ReaderEditMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/services/ReaderEditMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/readermanagement/services/ReaderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/services/ReaderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/readermanagement/services/SearchEmailQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/services/SearchEmailQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/readermanagement/services/SearchRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/services/SearchRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/readermanagement/services/UpdateReaderRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/services/UpdateReaderRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/usermanagement/api/ListResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/api/ListResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/usermanagement/api/UserAdminApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/api/UserAdminApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/usermanagement/api/UserView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/api/UserView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/usermanagement/api/UserViewMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/api/UserViewMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/usermanagement/infrastructure/repositories/impl/SpringDataUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/infrastructure/repositories/impl/SpringDataUserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/usermanagement/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/model/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/usermanagement/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/usermanagement/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/repositories/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/usermanagement/services/CreateUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/CreateUserRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/usermanagement/services/EditUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/EditUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/usermanagement/services/EditUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/EditUserRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/usermanagement/services/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/usermanagement/services/SearchRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/SearchRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/usermanagement/services/SearchUsersQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/SearchUsersQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/java/com/project/psoft/usermanagement/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/authors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookboostrapper/book1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookboostrapper/book2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookboostrapper/book3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookboostrapper/book4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookboostrapper/book5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookboostrapper/book6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookboostrapper/book7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookboostrapper/bookpng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookboostrapper/imagebmp.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookboostrapper/large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookcovers/978-3-16-148410-0_0d817a00-1938-4380-bfbb-b1ba5ea80cda.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookcovers/978-3-16-148410-0_38ba63d6-5656-41ab-baeb-ef85704e268b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookcovers/978-3-16-148410-0_6769f16e-31b8-42dc-91ca-327351458dcf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookcovers/978-3-16-148410-0_c9f8104f-d625-43db-8564-ef3880f5b151.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookcovers/978-9-7272-2880-5_6f9c96a4-0618-48eb-a5a4-ed08f3639cdf.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookcovers/978-9-7272-2880-5_7945ee77-9f77-4c54-9be7-266201152223.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookcovers/978-9-7272-2880-5_c3317625-7c36-4320-a4e6-5fecad40515b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookcovers/978-9-7272-2880-5_c3855386-3aa3-418a-9803-2fc6bd155e5b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookcovers/978-972-0-04683-3_60d314fc-4c88-46b1-a399-2f89f4607d90.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookcovers/978-972-0-04683-3_6285d3c8-9e74-4c6c-a5b3-68b320c234eb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookcovers/978-972-0-04683-3_848b1d99-2437-462f-a59f-e14fdfaee27a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookcovers/978-972-0-04683-3_870017d6-8254-4962-a2f3-7a7497029f15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookcovers/978-989-23-3583-4_5952a3f2-954d-48f7-b0d9-fd71e9436851.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookcovers/978-989-23-3583-4_9f8f45c1-1ad3-436a-ab7e-223554f2af0e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookcovers/978-989-23-3583-4_ab15f0e5-67c8-4128-b362-8de8b9b4073a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookcovers/978-989-23-3583-4_fd4604e2-8018-470d-be96-b4e3230c0734.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookcovers/978-989-644-504-1_71ecfb1f-27e6-4fe5-bfd4-60c501ef99ce.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookcovers/978-989-644-504-1_de1023cf-5700-4096-bb3a-1f8256679ce6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookcovers/978-989-644-504-1_df44365f-0ad1-4761-9250-d7014c9d1446.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookcovers/978-989-644-504-1_eff1ee28-e87d-4fdd-9730-0b50db77c127.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookcovers/978-989-666-352-0_11ff5eab-aef7-4eea-b75e-b977f96222aa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookcovers/978-989-666-352-0_23c48ebc-96ff-45f2-ac10-2777c26f9f7e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookcovers/978-989-666-352-0_af92773e-8d42-479b-aba3-862680a604f4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookcovers/978-989-666-352-0_efeb1bed-7305-46c2-b5cb-526d1f40c0de.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookcovers/978-989-8853-31-8_2e9b78fe-ef70-4cf0-9046-fe4dafe62152.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookcovers/978-989-8853-31-8_5feafc56-5246-4bc3-8ffc-0e9208a9565a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookcovers/978-989-8853-31-8_673f2d44-4a2a-4ee3-bf21-10e582f14618.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/bookcovers/978-989-8853-31-8_6c7a4da8-1f09-46fe-a5da-f6d9f58a90bd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/books.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/genres.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/rsa.private.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/rsa.public.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/main/resources/server/file.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/test/java/com/project/psoft/PsoftApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabio_8-psoft-project-5bca2fce7514/src/test/java/com/project/psoft/authormanagementapi/AuthorTest.java" beforeDir="false" />
+    <list default="true" id="a3650cc3-ed90-48c4-b80f-f5255ca306dc" name="Changes" comment="4 aplicações criadas">
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/PlansApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/bootstrapping/PlansBootstrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/configuration/JpaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/configuration/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/exceptions/DuplicatedDataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/exceptions/InconsistencyDataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/exceptions/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/planmanagement/api/CreatePlanRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/planmanagement/api/EditPlanRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/planmanagement/api/PlanController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/planmanagement/api/PlanDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/planmanagement/api/PlanDTOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/planmanagement/api/PlanDTOMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/planmanagement/model/AuthorityRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/planmanagement/model/MusicSuggestions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/planmanagement/model/Plan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/planmanagement/repositories/PlanDBRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/planmanagement/repositories/PlanHTTPRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/planmanagement/repositories/PlanRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/planmanagement/service/PlanRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/planmanagement/service/PlanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/utils/ServerPortListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/utils/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/resources/rsa.private.key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/resources/rsa.public.key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/resources/sisdi-project.postman_collection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/test/java/com/example/sisdi_plans/PlansApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/test/java/com/example/sisdi_plans/planmanagementapi/PlansTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/test/java/com/example/sisdi_plans/planmanagementapi/TestPlansApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/test/java/com/example/sisdi_plans/testutils/JsonHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/SubscriptionsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/configuration/JpaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/configuration/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/exceptions/DuplicatedDataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/exceptions/InconsistencyDataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/exceptions/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/api/CreateSubscriptionRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/api/SubscriptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/api/SubscriptionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/api/SubscriptionDTOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/api/SubscriptionDTOMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/model/AuthorityRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/model/FeeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/model/PaymentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/model/Subscription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/repositories/PlanHTTPRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/repositories/PlanRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/repositories/SubscriberRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/repositories/SubscriptionDBRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/repositories/SubscriptionHTTPRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/service/PlanRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/service/SubscriptionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/service/SubscriptionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/utils/LocalDateTimeTypeAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/utils/ServerPortListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/utils/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/resources/rsa.private.key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/resources/rsa.public.key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/resources/sisdi-project.postman_collection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/test/java/com/example/sisdi_subscriptions/SubscriptionsApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/test/java/com/example/sisdi_subscriptions/subscriptionsmanagementapi/SubscriptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/test/java/com/example/sisdi_subscriptions/subscriptionsmanagementapi/TestSubscriptionsApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/test/java/com/example/sisdi_subscriptions/testutils/JsonHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/UsersApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/auth/api/AuthApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/auth/api/AuthRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/bootstrapping/UserBootstrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/configuration/JpaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/configuration/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/exceptions/DuplicatedDataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/exceptions/InconsistencyDataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/exceptions/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/usermanagement/api/CreateSubscriberRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/usermanagement/api/CreateUserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/usermanagement/api/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/usermanagement/api/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/usermanagement/api/UserDTOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/usermanagement/api/UserDTOMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/usermanagement/model/AuthorityRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/usermanagement/model/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/usermanagement/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/usermanagement/repositories/SubscriptionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/usermanagement/repositories/UserDBRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/usermanagement/repositories/UserHTTPRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/usermanagement/repositories/UserRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/usermanagement/service/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/usermanagement/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/utils/LocalDateTimeTypeAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/utils/ServerPortListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/utils/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/resources/rsa.private.key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/resources/rsa.public.key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/resources/sisdi-project.postman_collection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/test/java/com/example/sisdi_users/UsersApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/test/java/com/example/sisdi_users/testutils/JsonHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/test/java/com/example/sisdi_users/usermanagementapi/TestUsersApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/CD-N1.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/CD-N1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/CD-N2.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/CD-N2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/DD.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/DD.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/DM.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/DM.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/PlansDocs/US02/US02.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/PlansDocs/US10/UC10-SD.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/PlansDocs/US10/UC10-SD.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/PlansDocs/US10/UC10-SSD.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/PlansDocs/US10/UC10-SSD.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/PlansDocs/US12/UC12-SD.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/PlansDocs/US12/UC12-SD.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/PlansDocs/US12/UC12-SSD.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/PlansDocs/US12/UC12-SSD.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/SubscriptionsDocs/CD-N3-Subscriptions.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/SubscriptionsDocs/CD-N3-Subscriptions.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/UCD.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/UCD.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/UCD.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -286,7 +168,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/fabio/IdeaProjects/Psoft-Library/Bags/src/main/java/com/sidis/Bags",
+    "last_opened_file_path": "C:/Users/fabio/IdeaProjects/Psoft-Library",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -298,11 +180,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fabio\IdeaProjects\Psoft-Library" />
       <recent name="C:\Users\fabio\IdeaProjects\Psoft-Library\Bags\src\main\java\com\sidis\Bags" />
       <recent name="C:\Users\fabio\IdeaProjects\Psoft-_Library\Bags\src\main\java\com\sidis\Bags" />
       <recent name="C:\Users\fabio\IdeaProjects\Psoft-_Library\Users\src\main\java\com\sidis\Users" />
       <recent name="C:\Users\fabio\IdeaProjects\Psoft-_Library\Readers\src\main\java\com\sidis\Readers" />
-      <recent name="C:\Users\fabio\IdeaProjects\Psoft-_Library\Lendings\src\main\java\com\sidis\Lendings" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\fabio\IdeaProjects\Psoft-_Library\Users\src\main\java\com\sidis\Users" />
@@ -360,7 +242,7 @@
       <updated>1729093952558</updated>
       <workItem from="1729093953740" duration="8186000" />
       <workItem from="1729259642075" duration="83000" />
-      <workItem from="1729259805794" duration="662000" />
+      <workItem from="1729259805794" duration="1865000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit do trabalho completo de psoft">
       <option name="closed" value="true" />
@@ -370,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729094086240</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="4 aplicações criadas">
+      <option name="closed" value="true" />
+      <created>1729260524800</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729260524800</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,6 +268,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit do trabalho completo de psoft" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit do trabalho completo de psoft" />
+    <MESSAGE value="4 aplicações criadas" />
+    <option name="LAST_COMMIT_MESSAGE" value="4 aplicações criadas" />
   </component>
 </project>

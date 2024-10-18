@@ -1,0 +1,33 @@
+@startuml
+'https://plantuml.com/deployment-diagram
+
+!theme toy
+
+node "Personal Computer" as sisdi {
+    component "Plans:P1" as p1
+    component "Plans:P2" as p2
+    component "Subscriptions:S1" as s1
+    component "Subscriptions:S2" as s2
+    component "Users:U1" as u1
+    component "Users:U2" as u2
+
+    rectangle "H2" as h2  {
+        database "Plans" as dbp
+        database "Plans2" as dbp2
+        database "Subscriptions" as dbs
+        database "Subscriptions2" as dbs2
+        database "Users" as dbu
+        database "Users2" as dbu2
+    }
+}
+
+
+
+p1 --- dbp
+p2 --- dbp2
+s1 --- dbs
+s2 --- dbs2
+u1 --- dbu
+u2 --- dbu2
+
+@enduml
