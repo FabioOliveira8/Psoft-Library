@@ -1,4 +1,4 @@
-package com.project.psoft.bootstrapping;
+package com.sidis.Users.bootstrapping;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
@@ -23,15 +23,15 @@ public class DatabaseCleanup implements CommandLineRunner {
     public void run(String... args) throws Exception {
         entityManager.createNativeQuery("SET REFERENTIAL_INTEGRITY FALSE").executeUpdate();
 
-        entityManager.createQuery("DELETE FROM Lending").executeUpdate();
-        entityManager.createQuery("DELETE FROM LendingNumber").executeUpdate();
-        entityManager.createQuery("DELETE FROM Reader").executeUpdate();
+//        entityManager.createQuery("DELETE FROM Lending").executeUpdate();
+//        entityManager.createQuery("DELETE FROM LendingNumber").executeUpdate();
+//        entityManager.createQuery("DELETE FROM Reader").executeUpdate();
         entityManager.createQuery("DELETE FROM Forbiddenword").executeUpdate();
 
         entityManager.createQuery("DELETE FROM User").executeUpdate();
-        entityManager.createQuery("DELETE FROM Book").executeUpdate();
-        entityManager.createQuery("DELETE FROM Author").executeUpdate();
-        entityManager.createQuery("DELETE FROM Genre").executeUpdate();
+//        entityManager.createQuery("DELETE FROM Book").executeUpdate();
+//        entityManager.createQuery("DELETE FROM Author").executeUpdate();
+//        entityManager.createQuery("DELETE FROM Genre").executeUpdate();
 
         entityManager.createNativeQuery("SET REFERENTIAL_INTEGRITY TRUE").executeUpdate();
     }

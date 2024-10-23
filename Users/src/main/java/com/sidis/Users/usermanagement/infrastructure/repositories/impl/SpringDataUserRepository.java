@@ -18,13 +18,13 @@
  * DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-package com.project.psoft.usermanagement.infrastructure.repositories.impl;
+package com.sidis.Users.usermanagement.infrastructure.repositories.impl;
 
-import com.project.psoft.exceptions.NotFoundException;
-import com.project.psoft.usermanagement.model.User;
-import com.project.psoft.usermanagement.repositories.UserRepository;
-import com.project.psoft.usermanagement.services.Page;
-import com.project.psoft.usermanagement.services.SearchUsersQuery;
+import com.sidis.Users.exceptions.NotFoundException;
+import com.sidis.Users.usermanagement.model.User;
+import com.sidis.Users.usermanagement.repositories.UserRepository;
+import com.sidis.Users.usermanagement.services.Page;
+import com.sidis.Users.usermanagement.services.SearchUsersQuery;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.TypedQuery;
 import jakarta.persistence.criteria.CriteriaBuilder;
@@ -36,6 +36,7 @@ import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.cache.annotation.Caching;
+import org.springframework.context.annotation.Primary;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 import org.springframework.util.StringUtils;
@@ -50,6 +51,7 @@ import java.util.Optional;
  */
 @Repository
 @CacheConfig(cacheNames = "users")
+@Primary
 public interface SpringDataUserRepository extends UserRepository, UserRepoCustom, CrudRepository<User, Long> {
 
 	@Override

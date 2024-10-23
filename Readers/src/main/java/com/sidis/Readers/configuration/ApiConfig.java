@@ -18,9 +18,9 @@
  * DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-package com.project.psoft.configuration;
+package com.sidis.Readers.configuration;
 
-import com.project.psoft.bookmanagement.services.FileStorageProperties;
+//import com.project.psoft.bookmanagement.services.FileStorageProperties;
 import io.swagger.v3.oas.models.Components;
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Contact;
@@ -39,7 +39,7 @@ import org.springframework.web.filter.ShallowEtagHeaderFilter;
  *
  */
 @Configuration
-@EnableConfigurationProperties({ FileStorageProperties.class })
+//@EnableConfigurationProperties({ FileStorageProperties.class })
 public class ApiConfig {
 
 	/*

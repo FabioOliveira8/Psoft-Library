@@ -18,10 +18,10 @@
  * DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-package com.project.psoft.configuration;
+package com.sidis.Users.configuration;
 
-import com.project.psoft.usermanagement.model.Role;
-import com.project.psoft.usermanagement.repositories.UserRepository;
+import com.sidis.Users.usermanagement.model.Role;
+import com.sidis.Users.usermanagement.repositories.UserRepository;
 import com.nimbusds.jose.jwk.JWK;
 import com.nimbusds.jose.jwk.JWKSet;
 import com.nimbusds.jose.jwk.RSAKey;

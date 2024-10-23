@@ -18,9 +18,9 @@
  * DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-package com.project.psoft.usermanagement.api;
+package com.sidis.Users.usermanagement.api;
 
-import com.project.psoft.usermanagement.model.User;
+import com.sidis.Users.usermanagement.model.User;
 import org.mapstruct.Mapper;
 
 import java.util.List;

@@ -18,13 +18,15 @@
  * DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-package com.project.psoft.usermanagement.services;
+package com.sidis.Users.usermanagement.services;
 
-import com.project.psoft.exceptions.ConflictException;
-import com.project.psoft.usermanagement.model.User;
-import com.project.psoft.usermanagement.repositories.UserRepository;
+import com.sidis.Users.exceptions.ConflictException;
+import com.sidis.Users.usermanagement.model.User;
+import com.sidis.Users.usermanagement.repositories.UserRepository;
 import jakarta.validation.ValidationException;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -43,7 +45,9 @@ import java.util.Optional;
 @RequiredArgsConstructor
 public class UserService implements UserDetailsService {
 
-	private final UserRepository userRepo;
+
+    private final UserRepository userRepo;
+
 	private final EditUserMapper userEditMapper;
 
 	private final PasswordEncoder passwordEncoder;
@@ -85,9 +89,6 @@ public class UserService implements UserDetailsService {
 	@Transactional
 	public User delete(final Long id) {
 		final User user = userRepo.getById(id);
-
-		// user.setUsername(user.getUsername().replace("@", String.format("_%s@",
-		// user.getId().toString())));
 		user.setEnabled(false);
 		return userRepo.save(user);
 	}

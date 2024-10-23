@@ -5,151 +5,74 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3650cc3-ed90-48c4-b80f-f5255ca306dc" name="Changes" comment="4 aplicações criadas">
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/PlansApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/bootstrapping/PlansBootstrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/configuration/JpaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/configuration/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/exceptions/DuplicatedDataException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/exceptions/InconsistencyDataException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/exceptions/NotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/planmanagement/api/CreatePlanRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/planmanagement/api/EditPlanRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/planmanagement/api/PlanController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/planmanagement/api/PlanDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/planmanagement/api/PlanDTOMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/planmanagement/api/PlanDTOMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/planmanagement/model/AuthorityRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/planmanagement/model/MusicSuggestions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/planmanagement/model/Plan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/planmanagement/repositories/PlanDBRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/planmanagement/repositories/PlanHTTPRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/planmanagement/repositories/PlanRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/planmanagement/service/PlanRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/planmanagement/service/PlanService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/utils/ServerPortListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/java/com/example/sisdi_plans/utils/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/resources/rsa.private.key" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/resources/rsa.public.key" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/main/resources/sisdi-project.postman_collection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/test/java/com/example/sisdi_plans/PlansApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/test/java/com/example/sisdi_plans/planmanagementapi/PlansTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/test/java/com/example/sisdi_plans/planmanagementapi/TestPlansApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Plans/src/test/java/com/example/sisdi_plans/testutils/JsonHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/SubscriptionsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/configuration/JpaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/configuration/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/exceptions/DuplicatedDataException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/exceptions/InconsistencyDataException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/exceptions/NotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/api/CreateSubscriptionRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/api/SubscriptionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/api/SubscriptionDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/api/SubscriptionDTOMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/api/SubscriptionDTOMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/model/AuthorityRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/model/FeeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/model/PaymentMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/model/Subscription.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/repositories/PlanHTTPRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/repositories/PlanRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/repositories/SubscriberRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/repositories/SubscriptionDBRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/repositories/SubscriptionHTTPRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/service/PlanRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/service/SubscriptionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/subscriptionmanagement/service/SubscriptionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/utils/LocalDateTimeTypeAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/utils/ServerPortListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/java/com/example/sisdi_subscriptions/utils/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/resources/rsa.private.key" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/resources/rsa.public.key" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/main/resources/sisdi-project.postman_collection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/test/java/com/example/sisdi_subscriptions/SubscriptionsApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/test/java/com/example/sisdi_subscriptions/subscriptionsmanagementapi/SubscriptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/test/java/com/example/sisdi_subscriptions/subscriptionsmanagementapi/TestSubscriptionsApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Subscriptions/src/test/java/com/example/sisdi_subscriptions/testutils/JsonHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/UsersApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/auth/api/AuthApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/auth/api/AuthRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/bootstrapping/UserBootstrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/configuration/JpaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/configuration/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/exceptions/DuplicatedDataException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/exceptions/InconsistencyDataException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/exceptions/NotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/usermanagement/api/CreateSubscriberRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/usermanagement/api/CreateUserRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/usermanagement/api/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/usermanagement/api/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/usermanagement/api/UserDTOMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/usermanagement/api/UserDTOMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/usermanagement/model/AuthorityRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/usermanagement/model/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/usermanagement/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/usermanagement/repositories/SubscriptionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/usermanagement/repositories/UserDBRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/usermanagement/repositories/UserHTTPRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/usermanagement/repositories/UserRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/usermanagement/service/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/usermanagement/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/utils/LocalDateTimeTypeAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/utils/ServerPortListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/java/com/example/sisdi_users/utils/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/resources/rsa.private.key" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/resources/rsa.public.key" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/main/resources/sisdi-project.postman_collection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/test/java/com/example/sisdi_users/UsersApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/test/java/com/example/sisdi_users/testutils/JsonHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/Users/src/test/java/com/example/sisdi_users/usermanagementapi/TestUsersApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/CD-N1.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/CD-N1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/CD-N2.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/CD-N2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/DD.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/DD.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/DM.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/DM.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/PlansDocs/US02/US02.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/PlansDocs/US10/UC10-SD.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/PlansDocs/US10/UC10-SD.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/PlansDocs/US10/UC10-SSD.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/PlansDocs/US10/UC10-SSD.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/PlansDocs/US12/UC12-SD.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/PlansDocs/US12/UC12-SD.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/PlansDocs/US12/UC12-SSD.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/PlansDocs/US12/UC12-SSD.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/SubscriptionsDocs/CD-N3-Subscriptions.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/SubscriptionsDocs/CD-N3-Subscriptions.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/UCD.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/UCD.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidis-project1/docs/UCD.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Users/src/main/resources/rsa.private.key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Users/src/main/resources/rsa.public.key" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bags/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lendings/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/bootstrapping/AuthorBootstrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/bootstrapping/BookBootstrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/bootstrapping/DatabaseCleanup.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/bootstrapping/DatabaseCleanup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/bootstrapping/GenreBootstrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/bootstrapping/LendingBootstrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/bootstrapping/UserBootstrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/bootstrapping/UserBootstrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/configuration/ApiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/configuration/ApiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/configuration/JpaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/configuration/JpaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/configuration/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/configuration/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Users/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/apiAuth/AuthApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/apiAuth/AuthApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/apiAuth/AuthRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/apiAuth/AuthRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/bootstrapping/AuthorBootstrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/bootstrapping/BookBootstrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/bootstrapping/DatabaseCleanup.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/bootstrapping/DatabaseCleanup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/bootstrapping/ForbiddenwordsBootstraper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/bootstrapping/ForbiddenwordsBootstraper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/bootstrapping/GenreBootstrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/bootstrapping/LendingBootstrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/bootstrapping/UserBootstrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/bootstrapping/UserBootstrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/configuration/ApiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/configuration/ApiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/configuration/JpaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/configuration/JpaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/configuration/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/configuration/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/exceptions/BadRequestException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/exceptions/BadRequestException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/exceptions/ConflictException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/exceptions/ConflictException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/exceptions/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/exceptions/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/exceptions/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/exceptions/NotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/forbiddenWords/infrastructure/repositories/impl/SpringDataForbiddenwordRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/forbiddenWords/infrastructure/repositories/impl/SpringDataForbiddenwordRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/forbiddenWords/model/Forbiddenword.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/forbiddenWords/model/Forbiddenword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/forbiddenWords/repository/ForbiddenwordRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/forbiddenWords/repository/ForbiddenwordRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/api/ListResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/api/ListResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/api/UserAdminApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/api/UserAdminApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/api/UserView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/api/UserView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/api/UserViewMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/api/UserViewMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/infrastructure/repositories/impl/SpringDataUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/infrastructure/repositories/impl/SpringDataUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/CreateUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/CreateUserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/EditUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/EditUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/EditUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/EditUserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/SearchRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/SearchRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/SearchUsersQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/SearchUsersQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -165,10 +88,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.UsersApplication.executor": "Run",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/fabio/IdeaProjects/Psoft-Library",
+    "last_opened_file_path": "C:/Users/fabio/IdeaProjects/Psoft-Library/Users/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -180,11 +109,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fabio\IdeaProjects\Psoft-Library\Users\src\main\resources" />
       <recent name="C:\Users\fabio\IdeaProjects\Psoft-Library" />
       <recent name="C:\Users\fabio\IdeaProjects\Psoft-Library\Bags\src\main\java\com\sidis\Bags" />
       <recent name="C:\Users\fabio\IdeaProjects\Psoft-_Library\Bags\src\main\java\com\sidis\Bags" />
       <recent name="C:\Users\fabio\IdeaProjects\Psoft-_Library\Users\src\main\java\com\sidis\Users" />
-      <recent name="C:\Users\fabio\IdeaProjects\Psoft-_Library\Readers\src\main\java\com\sidis\Readers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\fabio\IdeaProjects\Psoft-_Library\Users\src\main\java\com\sidis\Users" />
@@ -243,6 +172,9 @@
       <workItem from="1729093953740" duration="8186000" />
       <workItem from="1729259642075" duration="83000" />
       <workItem from="1729259805794" duration="1865000" />
+      <workItem from="1729693577800" duration="3919000" />
+      <workItem from="1729697512153" duration="244000" />
+      <workItem from="1729697767967" duration="5592000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit do trabalho completo de psoft">
       <option name="closed" value="true" />

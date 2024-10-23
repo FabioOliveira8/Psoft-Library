@@ -18,7 +18,7 @@
  * DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-package com.project.psoft.apiAuth;
+package com.sidis.Users.apiAuth;
 
 import static java.lang.String.format;
 import static java.util.stream.Collectors.joining;
@@ -26,10 +26,6 @@ import static java.util.stream.Collectors.joining;
 import java.net.URI;
 import java.time.Instant;
 
-import com.project.psoft.readermanagement.api.ReaderView;
-import com.project.psoft.readermanagement.api.ReaderViewMapper;
-import com.project.psoft.readermanagement.services.CreateReaderRequest;
-import com.project.psoft.readermanagement.services.ReaderService;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -43,11 +39,11 @@ import org.springframework.security.oauth2.jwt.JwtEncoder;
 import org.springframework.security.oauth2.jwt.JwtEncoderParameters;
 import org.springframework.web.bind.annotation.*;
 
-import com.project.psoft.usermanagement.api.UserView;
-import com.project.psoft.usermanagement.api.UserViewMapper;
-import com.project.psoft.usermanagement.model.User;
-import com.project.psoft.usermanagement.services.CreateUserRequest;
-import com.project.psoft.usermanagement.services.UserService;
+import com.sidis.Users.usermanagement.api.UserView;
+import com.sidis.Users.usermanagement.api.UserViewMapper;
+import com.sidis.Users.usermanagement.model.User;
+import com.sidis.Users.usermanagement.services.CreateUserRequest;
+import com.sidis.Users.usermanagement.services.UserService;
 
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
@@ -73,8 +69,8 @@ public class AuthApi {
 
 	private final UserService userService;
 
-	private final ReaderService readerService;
-	private final ReaderViewMapper readerViewMapper;
+//	private final ReaderService readerService;
+//	private final ReaderViewMapper readerViewMapper;
 
 	@PostMapping("login")
 	public ResponseEntity<UserView> login(@RequestBody @Valid final AuthRequest request) {
@@ -117,15 +113,15 @@ public class AuthApi {
 		return new ResponseEntity<>(userViewMapper.toUserView(user), HttpStatus.CREATED);
 	}
 
-	@PostMapping(value="registerReader",consumes="multipart/form-data")
-	public ResponseEntity<ReaderView> registerReader(@Valid final CreateReaderRequest request, @RequestPart(value = "pfp", required = false) final MultipartFile pfpFile) {
-		final var reader = readerService.create(request);
-
-		if(pfpFile != null)
-		{
-			final var readerPfp = readerService.createProfilePic(reader, pfpFile);
-		}
-
-		return new ResponseEntity<>(readerViewMapper.toReaderView(reader), HttpStatus.CREATED);
-	}
+//	@PostMapping(value="registerReader",consumes="multipart/form-data")
+//	public ResponseEntity<ReaderView> registerReader(@Valid final CreateReaderRequest request, @RequestPart(value = "pfp", required = false) final MultipartFile pfpFile) {
+//		final var reader = readerService.create(request);
+//
+//		if(pfpFile != null)
+//		{
+//			final var readerPfp = readerService.createProfilePic(reader, pfpFile);
+//		}
+//
+//		return new ResponseEntity<>(readerViewMapper.toReaderView(reader), HttpStatus.CREATED);
+//	}
 }

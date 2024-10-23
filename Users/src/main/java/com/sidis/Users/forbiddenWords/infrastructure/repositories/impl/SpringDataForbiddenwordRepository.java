@@ -1,7 +1,7 @@
-package com.project.psoft.forbiddenWords.infrastructure.repositories.impl;
+package com.sidis.Users.forbiddenWords.infrastructure.repositories.impl;
 
-import com.project.psoft.forbiddenWords.model.Forbiddenword;
-import com.project.psoft.forbiddenWords.repository.ForbiddenwordRepository;
+import com.sidis.Users.forbiddenWords.model.Forbiddenword;
+import com.sidis.Users.forbiddenWords.repository.ForbiddenwordRepository;
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;

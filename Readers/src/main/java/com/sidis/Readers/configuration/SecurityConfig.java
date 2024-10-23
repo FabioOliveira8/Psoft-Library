@@ -18,16 +18,16 @@
  * DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-package com.project.psoft.configuration;
+package com.sidis.Readers.configuration;
 
-import com.project.psoft.usermanagement.model.Role;
-import com.project.psoft.usermanagement.repositories.UserRepository;
+//import com.project.psoft.usermanagement.model.Role;
+//import com.project.psoft.usermanagement.repositories.UserRepository;
 import com.nimbusds.jose.jwk.JWK;
-import com.nimbusds.jose.jwk.JWKSet;
-import com.nimbusds.jose.jwk.RSAKey;
+import com.nimbusds.jose.jwk.JWKSet;import com.nimbusds.jose.jwk.RSAKey;
 import com.nimbusds.jose.jwk.source.ImmutableJWKSet;
 import com.nimbusds.jose.jwk.source.JWKSource;
 import com.nimbusds.jose.proc.SecurityContext;
+import com.sidis.Readers.clients.UserServiceClient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -42,6 +42,7 @@ import org.springframework.security.config.annotation.method.configuration.Enabl
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.http.SessionCreationPolicy;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -61,6 +62,7 @@ import org.springframework.web.filter.CorsFilter;
 
 import java.security.interfaces.RSAPrivateKey;
 import java.security.interfaces.RSAPublicKey;
+import java.util.Collections;
 
 import static java.lang.String.format;
 
@@ -80,7 +82,7 @@ import static java.lang.String.format;
 @RequiredArgsConstructor
 public class SecurityConfig {
 
-	private final UserRepository userRepo;
+	private final UserServiceClient userServiceClient;
 
 	@Value("${jwt.public.key}")
 	private RSAPublicKey rsaPublicKey;
@@ -198,15 +200,34 @@ public class SecurityConfig {
 	}
 
 	// Extract authorities from the roles claim
+
+// Antigo
+//	@Bean
+//	public JwtAuthenticationConverter jwtAuthenticationConverter() {
+//		final JwtGrantedAuthoritiesConverter jwtGrantedAuthoritiesConverter = new JwtGrantedAuthoritiesConverter();
+//		jwtGrantedAuthoritiesConverter.setAuthoritiesClaimName("roles");
+//		jwtGrantedAuthoritiesConverter.setAuthorityPrefix("ROLE_");
+//
+//		final JwtAuthenticationConverter jwtAuthenticationConverter = new JwtAuthenticationConverter();
+//		jwtAuthenticationConverter.setJwtGrantedAuthoritiesConverter(jwtGrantedAuthoritiesConverter);
+//		return jwtAuthenticationConverter;
+//	}
+
+	//Novo fase de teste###############################################
 	@Bean
 	public JwtAuthenticationConverter jwtAuthenticationConverter() {
-		final JwtGrantedAuthoritiesConverter jwtGrantedAuthoritiesConverter = new JwtGrantedAuthoritiesConverter();
-		jwtGrantedAuthoritiesConverter.setAuthoritiesClaimName("roles");
-		jwtGrantedAuthoritiesConverter.setAuthorityPrefix("ROLE_");
+		final JwtAuthenticationConverter converter = new JwtAuthenticationConverter();
+		converter.setJwtGrantedAuthoritiesConverter(jwt -> {
+			try {
+				String token = jwt.getTokenValue();
+				String role = userServiceClient.getUserRole("Bearer " + token);
+				return Collections.singleton(new SimpleGrantedAuthority("ROLE_" + role));
+			} catch (Exception e) {
+				throw new RuntimeException("Error getting user role: " + e.getMessage());
+			}
+		});
 
-		final JwtAuthenticationConverter jwtAuthenticationConverter = new JwtAuthenticationConverter();
-		jwtAuthenticationConverter.setJwtGrantedAuthoritiesConverter(jwtGrantedAuthoritiesConverter);
-		return jwtAuthenticationConverter;
+		return converter;
 	}
 
 	// Set password encoding schema

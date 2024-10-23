@@ -18,12 +18,14 @@
  * DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-package com.project.psoft.usermanagement.repositories;
+package com.sidis.Users.usermanagement.repositories;
 
-import com.project.psoft.exceptions.NotFoundException;
-import com.project.psoft.usermanagement.model.User;
-import com.project.psoft.usermanagement.services.Page;
-import com.project.psoft.usermanagement.services.SearchUsersQuery;
+import com.sidis.Users.exceptions.NotFoundException;
+import com.sidis.Users.usermanagement.model.User;
+import com.sidis.Users.usermanagement.services.Page;
+import com.sidis.Users.usermanagement.services.SearchUsersQuery;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Optional;
@@ -31,6 +33,7 @@ import java.util.Optional;
 /**
  *
  */
+@Repository
 public interface UserRepository {
 
 	<S extends User> List<S> saveAll(Iterable<S> entities);

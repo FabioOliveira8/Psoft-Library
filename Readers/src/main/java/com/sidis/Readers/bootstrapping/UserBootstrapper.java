@@ -18,13 +18,14 @@
  * DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-package com.project.psoft.bootstrapping;
-import com.project.psoft.readermanagement.model.Reader;
-import com.project.psoft.readermanagement.model.ReaderNumber;
-import com.project.psoft.readermanagement.repositories.ReaderRepository;
-import com.project.psoft.usermanagement.model.Role;
-import com.project.psoft.usermanagement.model.User;
-import com.project.psoft.usermanagement.repositories.UserRepository;
+package com.sidis.Readers.bootstrapping;
+
+import com.sidis.Readers.readermanagement.model.Reader;
+import com.sidis.Readers.readermanagement.model.ReaderNumber;
+import com.sidis.Readers.readermanagement.repositories.ReaderRepository;
+//import com.project.psoft.usermanagement.model.Role;
+//import com.project.psoft.usermanagement.model.User;
+//import com.project.psoft.usermanagement.repositories.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Profile;
@@ -56,21 +57,21 @@ public class UserBootstrapper implements CommandLineRunner {
     @Transactional
     public void run(final String... args) throws Exception {
         //Admin
-        if (userRepo.findByUsername("ranheta1@mail.com").isEmpty()) {
-            final User u2 = User.newUser("ranheta1@mail.com", encoder.encode("facada"), "Ervilha", Role.ADMIN);
-            userRepo.save(u2);
-        }
-        //Librarian
-        if (userRepo.findByUsername("u1@mail.com").isEmpty()) {
-            final User u1 = new User("u1@mail.com", encoder.encode("Password1"));
-            u1.addAuthority(new Role(Role.LIBRARIAN));
-            userRepo.save(u1);
-        }
-        if (userRepo.findByUsername("mary@mail.com").isEmpty()) {
-            final User u3 = new User("mary@mail.com", encoder.encode("Password1"));
-            u3.addAuthority(new Role(Role.LIBRARIAN));
-            userRepo.save(u3);
-        }
+//        if (userRepo.findByUsername("ranheta1@mail.com").isEmpty()) {
+//            final User u2 = User.newUser("ranheta1@mail.com", encoder.encode("facada"), "Ervilha", Role.ADMIN);
+//            userRepo.save(u2);
+//        }
+//        //Librarian
+//        if (userRepo.findByUsername("u1@mail.com").isEmpty()) {
+//            final User u1 = new User("u1@mail.com", encoder.encode("Password1"));
+//            u1.addAuthority(new Role(Role.LIBRARIAN));
+//            userRepo.save(u1);
+//        }
+//        if (userRepo.findByUsername("mary@mail.com").isEmpty()) {
+//            final User u3 = new User("mary@mail.com", encoder.encode("Password1"));
+//            u3.addAuthority(new Role(Role.LIBRARIAN));
+//            userRepo.save(u3);
+//        }
 
         //Reader
         if (readerRepo.findByUsername("mary1@mail.com").isEmpty()) {
