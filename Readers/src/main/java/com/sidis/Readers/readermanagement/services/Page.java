@@ -1,4 +1,4 @@
-package com.project.psoft.readermanagement.services;
+package com.sidis.Readers.readermanagement.services;
 
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;

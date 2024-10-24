@@ -61,6 +61,7 @@ public class CreateUserRequest {
 		this.username = username;
 		this.fullName = fullName;
 		this.password = password;
-		this.rePassword = password;
+//		this.rePassword = password;
 	}
+
 }

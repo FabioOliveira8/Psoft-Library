@@ -1,4 +1,4 @@
-package com.project.psoft.forbiddenWords.model;
+package com.sidis.Readers.forbiddenWords.model;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;

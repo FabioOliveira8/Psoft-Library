@@ -1,4 +1,4 @@
-package com.project.psoft.readermanagement.model;
+package com.sidis.Readers.readermanagement.model;
 import java.util.regex.Pattern;
 
 

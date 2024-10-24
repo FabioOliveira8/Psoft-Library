@@ -20,7 +20,7 @@
  */
 package com.sidis.Readers.configuration;
 
-//import com.project.psoft.bookmanagement.services.FileStorageProperties;
+//import com.sidis.Readers.bookmanagement.services.FileStorageProperties;
 import io.swagger.v3.oas.models.Components;
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Contact;

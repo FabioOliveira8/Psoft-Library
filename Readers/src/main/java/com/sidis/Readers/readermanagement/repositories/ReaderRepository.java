@@ -1,10 +1,9 @@
-package com.project.psoft.readermanagement.repositories;
+package com.sidis.Readers.readermanagement.repositories;
 
-import com.project.psoft.exceptions.NotFoundException;
-import com.project.psoft.readermanagement.model.Reader;
-import com.project.psoft.readermanagement.services.Page;
+import com.sidis.Readers.exceptions.NotFoundException;
+import com.sidis.Readers.readermanagement.model.Reader;
+import com.sidis.Readers.readermanagement.services.Page;
 import org.springframework.data.domain.Pageable;
-
 
 import java.util.List;
 import java.util.Optional;

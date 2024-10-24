@@ -1,7 +1,8 @@
-package com.project.psoft.readermanagement.model;
+package com.sidis.Readers.readermanagement.model;
 
-import com.project.psoft.genre.model.Genre;
-import com.project.psoft.genre.repository.GenreRepository;
+import com.sidis.Readers.genre.model.Genre;
+import com.sidis.Readers.genre.repository.GenreRepository;
+
 import java.util.Optional;
 import java.util.Set;
 

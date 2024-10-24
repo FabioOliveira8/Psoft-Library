@@ -1,6 +1,6 @@
-package com.project.psoft.forbiddenWords.repository;
+package com.sidis.Readers.forbiddenWords.repository;
 
-import com.project.psoft.forbiddenWords.model.Forbiddenword;
+import com.sidis.Readers.forbiddenWords.model.Forbiddenword;
 
 public interface ForbiddenwordRepository {
     Forbiddenword save(Forbiddenword f);

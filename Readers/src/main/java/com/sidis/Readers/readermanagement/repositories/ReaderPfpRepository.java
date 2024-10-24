@@ -1,8 +1,6 @@
-package com.project.psoft.readermanagement.repositories;
+package com.sidis.Readers.readermanagement.repositories;
 
-import com.project.psoft.readermanagement.model.ReaderPfp;
-
-import java.util.Optional;
+import com.sidis.Readers.readermanagement.model.ReaderPfp;
 
 public interface ReaderPfpRepository {
     ReaderPfp save(ReaderPfp obj);

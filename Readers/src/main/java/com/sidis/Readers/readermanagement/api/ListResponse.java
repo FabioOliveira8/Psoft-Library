@@ -1,4 +1,4 @@
-package com.project.psoft.readermanagement.api;
+package com.sidis.Readers.readermanagement.api;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

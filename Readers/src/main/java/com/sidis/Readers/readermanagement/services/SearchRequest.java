@@ -1,10 +1,9 @@
-package com.project.psoft.readermanagement.services;
+package com.sidis.Readers.readermanagement.services;
 
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 @AllArgsConstructor
 @Data

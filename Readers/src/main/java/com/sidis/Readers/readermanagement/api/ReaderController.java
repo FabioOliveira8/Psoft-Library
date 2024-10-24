@@ -1,13 +1,12 @@
-package com.project.psoft.readermanagement.api;
+package com.sidis.Readers.readermanagement.api;
 
-import com.project.psoft.bookmanagement.api.BookView;
-import com.project.psoft.bookmanagement.api.BookViewMapper;
-import com.project.psoft.bookmanagement.model.Book;
-import com.project.psoft.readermanagement.model.Reader;
-import com.project.psoft.readermanagement.model.ReaderPfp;
-import com.project.psoft.readermanagement.services.*;
-import com.project.psoft.usermanagement.services.SearchRequest;
-import com.project.psoft.readermanagement.services.Page;
+//import com.sidis.Readers.bookmanagement.api.BookView;
+//import com.sidis.Readers.bookmanagement.api.BookViewMapper;
+//import com.sidis.Readers.bookmanagement.model.Book;
+import com.sidis.Readers.readermanagement.model.Reader;
+import com.sidis.Readers.readermanagement.model.ReaderPfp;
+import com.sidis.Readers.readermanagement.services.*;
+//import com.sidis.Readers.usermanagement.services.SearchRequest;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -31,7 +30,7 @@ import java.util.List;
 public class ReaderController {
     private final ReaderService readerService;
     private final ReaderViewMapper readerViewMapper;
-    private final BookViewMapper bookViewMapper;
+//    private final BookViewMapper bookViewMapper;
 
     @Operation(summary = "Updates a reader")
     @PutMapping("updateReader")
@@ -68,15 +67,15 @@ public class ReaderController {
                 .body(profilePicture.getImage());
     }
 
-    @Operation(summary = "Returns a suggestion of books based on the interests of the reader")
-    @GetMapping("getBookSuggestions")
-    public ListResponse<BookView>getBookSuggestions(Principal principal, @RequestBody final PaginationRequest request){
-        int index = principal.getName().indexOf(",");
-        String username = principal.getName().substring(index+1);
-
-        final List<Book> books = readerService.getBookSuggestions(request.getPage(),username);
-        return new ListResponse<>(bookViewMapper.toBookView(books));
-    }
+//    @Operation(summary = "Returns a suggestion of books based on the interests of the reader")
+//    @GetMapping("getBookSuggestions")
+//    public ListResponse<BookView>getBookSuggestions(Principal principal, @RequestBody final PaginationRequest request){
+//        int index = principal.getName().indexOf(",");
+//        String username = principal.getName().substring(index+1);
+//
+//        final List<Book> books = readerService.getBookSuggestions(request.getPage(),username);
+//        return new ListResponse<>(bookViewMapper.toBookView(books));
+//    }
 
     @Operation(summary = "Gets the all time top 5 readers")
     @GetMapping("getTopReaders")
@@ -108,11 +107,11 @@ public class ReaderController {
         return new ListResponse<>(readerViewMapper.toReaderView(readers));
     }
 
-    @Operation(summary="Gets the readers with that phone number")
-    @GetMapping("search/email")
-    public ListResponse<ReaderView>getReadersByEmail(@RequestBody @Valid final SearchRequest<SearchEmailQuery> request){
-        List<Reader> readers = readerService.getReadersByEmail(request.getQuery().getEmail(),request.getPage());
-        return new ListResponse<>(readerViewMapper.toReaderView(readers));
-    }
+//    @Operation(summary="Gets the readers with that phone number")
+//    @GetMapping("search/email")
+//    public ListResponse<ReaderView>getReadersByEmail(@RequestBody @Valid final SearchRequest<SearchEmailQuery> request){
+//        List<Reader> readers = readerService.getReadersByEmail(request.getQuery().getEmail(),request.getPage());
+//        return new ListResponse<>(readerViewMapper.toReaderView(readers));
+//    }
 
 }

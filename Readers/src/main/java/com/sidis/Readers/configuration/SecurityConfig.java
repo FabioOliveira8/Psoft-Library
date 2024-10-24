@@ -1,36 +1,13 @@
-/*
- * Copyright (c) 2022-2024 the original author or authors.
- *
- * MIT License
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
- * associated documentation files (the "Software"), to deal in the Software without restriction,
- * including without limitation the rights to use, copy, modify, merge, publish, distribute,
- * sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in all copies or
- * substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT
- * NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
- * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
- * DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
- */
 package com.sidis.Readers.configuration;
 
-//import com.project.psoft.usermanagement.model.Role;
-//import com.project.psoft.usermanagement.repositories.UserRepository;
 import com.nimbusds.jose.jwk.JWK;
-import com.nimbusds.jose.jwk.JWKSet;import com.nimbusds.jose.jwk.RSAKey;
+import com.nimbusds.jose.jwk.JWKSet;
+import com.nimbusds.jose.jwk.RSAKey;
 import com.nimbusds.jose.jwk.source.ImmutableJWKSet;
 import com.nimbusds.jose.jwk.source.JWKSource;
 import com.nimbusds.jose.proc.SecurityContext;
-import com.sidis.Readers.clients.UserServiceClient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
@@ -42,9 +19,7 @@ import org.springframework.security.config.annotation.method.configuration.Enabl
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.http.SessionCreationPolicy;
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.oauth2.jwt.JwtDecoder;
@@ -62,39 +37,20 @@ import org.springframework.web.filter.CorsFilter;
 
 import java.security.interfaces.RSAPrivateKey;
 import java.security.interfaces.RSAPublicKey;
-import java.util.Collections;
 
 import static java.lang.String.format;
 
-/**
- * Check https://www.baeldung.com/security-spring and
- * https://www.toptal.com/spring/spring-security-tutorial
- * <p>
- * Based on https://github.com/Yoh0xFF/java-spring-security-example/
- *
- * @author pagsousa
- *
- */
 @EnableWebSecurity
 @Configuration
 @EnableMethodSecurity(securedEnabled = true, jsr250Enabled = true)
-@EnableConfigurationProperties
 @RequiredArgsConstructor
 public class SecurityConfig {
-
-	private final UserServiceClient userServiceClient;
 
 	@Value("${jwt.public.key}")
 	private RSAPublicKey rsaPublicKey;
 
 	@Value("${jwt.private.key}")
 	private RSAPrivateKey rsaPrivateKey;
-
-	@Value("${springdoc.api-docs.path}")
-	private String restApiDocPath;
-
-	@Value("${springdoc.swagger-ui.path}")
-	private String swaggerPath;
 
 	@Bean
 	public AuthenticationManager authenticationManager(final UserDetailsService userDetailsService,
@@ -104,12 +60,6 @@ public class SecurityConfig {
 		authenticationProvider.setPasswordEncoder(passwordEncoder);
 
 		return new ProviderManager(authenticationProvider);
-	}
-
-	@Bean
-	public UserDetailsService userDetailsService() {
-		return username -> userRepo.findByUsername(username)
-				.orElseThrow(() -> new UsernameNotFoundException(format("User: %s, not found", username)));
 	}
 
 	@Bean
@@ -127,60 +77,19 @@ public class SecurityConfig {
 
 		// Set permissions on endpoints
 		http.authorizeHttpRequests()
-				// Swagger endpoints must be publicly accessible
-				.requestMatchers("/").permitAll().requestMatchers(String.format("%s/**", restApiDocPath)).permitAll()
-				.requestMatchers(String.format("%s/**", swaggerPath)).permitAll()
-				// Our public endpoints
-				.requestMatchers("/api/login").permitAll() // login as reader, librarian or admin
-				.requestMatchers("/api/register").permitAll()
-				.requestMatchers("/api/registerReader").permitAll()// register as reader
-				//.requestMatchers("/api/librarian/**").permitAll() // read-only librarian
-				//.requestMatchers("/api/reader/**").permitAll() // read-only reader
-				.requestMatchers(HttpMethod.GET,"/api/book/topgenres").hasRole(Role.LIBRARIAN)
-				.requestMatchers(HttpMethod.GET,"/api/book/topbooks").hasRole(Role.LIBRARIAN)
-				.requestMatchers(HttpMethod.GET,"/api/book").permitAll()
-				.requestMatchers(HttpMethod.GET,"/api/book/{isbn}").permitAll()
-				.requestMatchers(HttpMethod.GET,"/api/book/{isbn}/cover").permitAll()
-				.requestMatchers(HttpMethod.GET,"/api/book/search").permitAll()
+				// Public endpoints for Readers
+				.requestMatchers("/api/login").permitAll()
+				.requestMatchers("/api/registerReader").permitAll() // register as reader
+				.requestMatchers(HttpMethod.GET, "/api/book").permitAll() // view books
+				.requestMatchers(HttpMethod.GET, "/api/book/{isbn}").permitAll() // view book details
 
-				// Our private endpoints
-				.requestMatchers("/api/admin/user/**").hasRole(Role.ADMIN) // user management
+				// Reader-specific endpoints
+				.requestMatchers(HttpMethod.GET, "/api/reader/getBookSuggestions").hasRole("READER")
+				.requestMatchers(HttpMethod.PUT, "/api/reader/updateReader").hasRole("READER")
 
-				//Authors
-				.requestMatchers(HttpMethod.GET, "/api/authors/books/{authorName}").hasRole(Role.READER)
-				.requestMatchers(HttpMethod.GET, "/api/authors/TopAuthors").hasRole(Role.READER)
-				.requestMatchers(HttpMethod.GET, "/api/authors/coAuthors/{authorName}").hasRole(Role.READER)
-				.requestMatchers(HttpMethod.POST,"/api/authors").hasRole(Role.LIBRARIAN) // library management
-				.requestMatchers(HttpMethod.PUT,"/api/authors/{id}").hasRole(Role.LIBRARIAN) // library management
-				.requestMatchers(HttpMethod.GET, "/api/authors/{id}").hasAnyRole("LIBRARIAN", "READER")
-				.requestMatchers(HttpMethod.GET,"/api/authors").hasAnyRole("LIBRARIAN", "READER")
-				.requestMatchers(HttpMethod.GET,"/api/authors/{id}/authorPicture").hasRole(Role.LIBRARIAN)
-				.requestMatchers(HttpMethod.GET, "/api/authors/top-readers-per-genre").hasRole(Role.LIBRARIAN)
-				.requestMatchers(HttpMethod.GET, "/api/reader/search/email").hasRole(Role.LIBRARIAN)
-
-				//Readers
-				.requestMatchers(HttpMethod.GET,"/api/reader/getTopReaders").hasRole(Role.LIBRARIAN)
-				.requestMatchers(HttpMethod.GET,"/api/reader/search/**").hasRole(Role.LIBRARIAN)
-				.requestMatchers(HttpMethod.GET,"/api/reader/getBookSuggestions").hasRole(Role.READER)
-				.requestMatchers(HttpMethod.GET,"/api/reader/{year}/{id}/profile").hasRole(Role.LIBRARIAN)
-				.requestMatchers(HttpMethod.GET,"/api/reader/{year}/{id}/profilePicture").hasRole(Role.LIBRARIAN)
-				.requestMatchers(HttpMethod.PUT,"/api/reader/updateReader").hasRole(Role.READER)
-
-				// book management
-				.requestMatchers(HttpMethod.PUT,"/api/book/{isbn}").hasRole(Role.LIBRARIAN)
-				.requestMatchers(HttpMethod.PATCH,"/api/book/{isbn}").hasRole(Role.LIBRARIAN)
-
-				//Lendings
-				.requestMatchers("/api/lending").hasRole(Role.LIBRARIAN)
-				.requestMatchers("/api/lending/report").hasRole(Role.LIBRARIAN)
-				.requestMatchers("/api/lending/getMonthlyLendingPerReader").hasRole(Role.LIBRARIAN)
-				.requestMatchers(HttpMethod.PATCH, "/api/lending/{isbnOrlYear}/**").hasRole(Role.READER)
-				.requestMatchers(HttpMethod.GET, "/api/lending/{isbnOrlYear}/**")
-				.hasAnyRole(Role.LIBRARIAN, Role.READER)
-
+				// Any other request must be authenticated
 				.anyRequest().authenticated()
-				// Set up oauth2 resource server
-				.and().httpBasic(Customizer.withDefaults()).oauth2ResourceServer().jwt();
+				.and().oauth2ResourceServer().jwt();
 
 		return http.build();
 	}
@@ -200,34 +109,15 @@ public class SecurityConfig {
 	}
 
 	// Extract authorities from the roles claim
-
-// Antigo
-//	@Bean
-//	public JwtAuthenticationConverter jwtAuthenticationConverter() {
-//		final JwtGrantedAuthoritiesConverter jwtGrantedAuthoritiesConverter = new JwtGrantedAuthoritiesConverter();
-//		jwtGrantedAuthoritiesConverter.setAuthoritiesClaimName("roles");
-//		jwtGrantedAuthoritiesConverter.setAuthorityPrefix("ROLE_");
-//
-//		final JwtAuthenticationConverter jwtAuthenticationConverter = new JwtAuthenticationConverter();
-//		jwtAuthenticationConverter.setJwtGrantedAuthoritiesConverter(jwtGrantedAuthoritiesConverter);
-//		return jwtAuthenticationConverter;
-//	}
-
-	//Novo fase de teste###############################################
 	@Bean
 	public JwtAuthenticationConverter jwtAuthenticationConverter() {
-		final JwtAuthenticationConverter converter = new JwtAuthenticationConverter();
-		converter.setJwtGrantedAuthoritiesConverter(jwt -> {
-			try {
-				String token = jwt.getTokenValue();
-				String role = userServiceClient.getUserRole("Bearer " + token);
-				return Collections.singleton(new SimpleGrantedAuthority("ROLE_" + role));
-			} catch (Exception e) {
-				throw new RuntimeException("Error getting user role: " + e.getMessage());
-			}
-		});
+		final JwtGrantedAuthoritiesConverter jwtGrantedAuthoritiesConverter = new JwtGrantedAuthoritiesConverter();
+		jwtGrantedAuthoritiesConverter.setAuthoritiesClaimName("roles");
+		jwtGrantedAuthoritiesConverter.setAuthorityPrefix("ROLE_");
 
-		return converter;
+		final JwtAuthenticationConverter jwtAuthenticationConverter = new JwtAuthenticationConverter();
+		jwtAuthenticationConverter.setJwtGrantedAuthoritiesConverter(jwtGrantedAuthoritiesConverter);
+		return jwtAuthenticationConverter;
 	}
 
 	// Set password encoding schema

@@ -1,8 +1,9 @@
-package com.project.psoft.readermanagement.model;
-import com.project.psoft.readermanagement.repositories.ReaderRepository;
+package com.sidis.Readers.readermanagement.model;
 
-import java.time.format.DateTimeFormatter;
+import com.sidis.Readers.readermanagement.repositories.ReaderRepository;
+
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.regex.Pattern;
 
 public class ReaderNumber {

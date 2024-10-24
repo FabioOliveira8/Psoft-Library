@@ -4,63 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3650cc3-ed90-48c4-b80f-f5255ca306dc" name="Changes" comment="4 aplicações criadas">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Users/src/main/resources/rsa.private.key" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Users/src/main/resources/rsa.public.key" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a3650cc3-ed90-48c4-b80f-f5255ca306dc" name="Changes" comment="App Users já funciona">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bags/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bags/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lendings/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lendings/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readers/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/bootstrapping/AuthorBootstrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/bootstrapping/BookBootstrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/bootstrapping/DatabaseCleanup.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/bootstrapping/DatabaseCleanup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/bootstrapping/GenreBootstrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/bootstrapping/LendingBootstrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/bootstrapping/ForbiddenwordsBootstraper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/bootstrapping/ForbiddenwordsBootstraper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/bootstrapping/UserBootstrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/bootstrapping/UserBootstrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/clients/UserServiceClient.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/configuration/ApiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/configuration/ApiConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/configuration/JpaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/configuration/JpaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/configuration/RestTemplateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/configuration/RestTemplateConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/configuration/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/configuration/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/exceptions/BadRequestException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/exceptions/BadRequestException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/exceptions/ConflictException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/exceptions/ConflictException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/exceptions/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/exceptions/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/exceptions/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/exceptions/NotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/forbiddenWords/infrastructure/repositories/impl/SpringDataForbiddenwordRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/forbiddenWords/infrastructure/repositories/impl/SpringDataForbiddenwordRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/forbiddenWords/model/Forbiddenword.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/forbiddenWords/model/Forbiddenword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/forbiddenWords/repository/ForbiddenwordRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/forbiddenWords/repository/ForbiddenwordRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/api/ListResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/api/ListResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/api/ReaderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/api/ReaderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/api/ReaderView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/api/ReaderView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/api/ReaderViewMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/api/ReaderViewMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/infrastructure/repositories/impl/SpringDataReaderPfpRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/infrastructure/repositories/impl/SpringDataReaderPfpRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/infrastructure/repositories/impl/SpringDataReaderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/infrastructure/repositories/impl/SpringDataReaderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/model/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/model/Date.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/model/InterestList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/model/InterestList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/model/NameV.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/model/NameV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/model/Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/model/Password.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/model/PhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/model/PhoneNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/model/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/model/Reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/model/ReaderNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/model/ReaderNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/model/ReaderPfp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/model/ReaderPfp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/repositories/ReaderPfpRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/repositories/ReaderPfpRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/repositories/ReaderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/repositories/ReaderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/services/CreateReaderRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/services/CreateReaderRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/services/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/services/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/services/PaginationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/services/PaginationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/services/ReaderEditMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/services/ReaderEditMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/services/ReaderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/services/ReaderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/services/SearchEmailQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/services/SearchEmailQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/services/SearchRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/services/SearchRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/services/UpdateReaderRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/java/com/sidis/Readers/readermanagement/services/UpdateReaderRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readers/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Readers/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Users/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/apiAuth/AuthApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/apiAuth/AuthApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/apiAuth/AuthRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/apiAuth/AuthRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/bootstrapping/AuthorBootstrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/bootstrapping/BookBootstrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/bootstrapping/DatabaseCleanup.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/bootstrapping/DatabaseCleanup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/bootstrapping/ForbiddenwordsBootstraper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/bootstrapping/ForbiddenwordsBootstraper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/bootstrapping/GenreBootstrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/bootstrapping/LendingBootstrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/bootstrapping/UserBootstrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/bootstrapping/UserBootstrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/configuration/ApiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/configuration/ApiConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/configuration/JpaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/configuration/JpaConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/configuration/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/configuration/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/exceptions/BadRequestException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/exceptions/BadRequestException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/exceptions/ConflictException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/exceptions/ConflictException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/exceptions/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/exceptions/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/exceptions/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/exceptions/NotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/forbiddenWords/infrastructure/repositories/impl/SpringDataForbiddenwordRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/forbiddenWords/infrastructure/repositories/impl/SpringDataForbiddenwordRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/forbiddenWords/model/Forbiddenword.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/forbiddenWords/model/Forbiddenword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/forbiddenWords/repository/ForbiddenwordRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/forbiddenWords/repository/ForbiddenwordRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/api/ListResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/api/ListResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/api/UserAdminApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/api/UserAdminApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/api/UserView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/api/UserView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/api/UserViewMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/api/UserViewMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/infrastructure/repositories/impl/SpringDataUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/infrastructure/repositories/impl/SpringDataUserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/model/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/repositories/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/CreateUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/CreateUserRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/EditUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/EditUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/EditUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/EditUserRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/SearchRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/SearchRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/SearchUsersQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/SearchUsersQuery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/java/com/sidis/Users/usermanagement/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Users/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,23 +82,26 @@
     "Spring Boot.UsersApplication.executor": "Run",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/fabio/IdeaProjects/Psoft-Library/Users/src/main/resources",
+    "last_opened_file_path": "C:/Users/fabio/IdeaProjects/Psoft-Library/Readers/src/main/java/com/sidis/Readers",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "run.configurations.included.in.services": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fabio\IdeaProjects\Psoft-Library\Readers\src\main\java\com\sidis\Readers" />
       <recent name="C:\Users\fabio\IdeaProjects\Psoft-Library\Users\src\main\resources" />
       <recent name="C:\Users\fabio\IdeaProjects\Psoft-Library" />
       <recent name="C:\Users\fabio\IdeaProjects\Psoft-Library\Bags\src\main\java\com\sidis\Bags" />
       <recent name="C:\Users\fabio\IdeaProjects\Psoft-_Library\Bags\src\main\java\com\sidis\Bags" />
-      <recent name="C:\Users\fabio\IdeaProjects\Psoft-_Library\Users\src\main\java\com\sidis\Users" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\fabio\IdeaProjects\Psoft-_Library\Users\src\main\java\com\sidis\Users" />
@@ -174,7 +162,7 @@
       <workItem from="1729259805794" duration="1865000" />
       <workItem from="1729693577800" duration="3919000" />
       <workItem from="1729697512153" duration="244000" />
-      <workItem from="1729697767967" duration="5592000" />
+      <workItem from="1729697767967" duration="16823000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit do trabalho completo de psoft">
       <option name="closed" value="true" />
@@ -192,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729260524800</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="App Users já funciona">
+      <option name="closed" value="true" />
+      <created>1729705555683</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729705555683</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +197,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit do trabalho completo de psoft" />
     <MESSAGE value="4 aplicações criadas" />
-    <option name="LAST_COMMIT_MESSAGE" value="4 aplicações criadas" />
+    <MESSAGE value="App Users já funciona" />
+    <option name="LAST_COMMIT_MESSAGE" value="App Users já funciona" />
   </component>
 </project>

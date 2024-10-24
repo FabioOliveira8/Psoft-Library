@@ -1,7 +1,7 @@
-package com.project.psoft.readermanagement.infrastructure.repositories.impl;
+package com.sidis.Readers.readermanagement.infrastructure.repositories.impl;
 
-import com.project.psoft.readermanagement.model.ReaderPfp;
-import com.project.psoft.readermanagement.repositories.ReaderPfpRepository;
+import com.sidis.Readers.readermanagement.model.ReaderPfp;
+import com.sidis.Readers.readermanagement.repositories.ReaderPfpRepository;
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;

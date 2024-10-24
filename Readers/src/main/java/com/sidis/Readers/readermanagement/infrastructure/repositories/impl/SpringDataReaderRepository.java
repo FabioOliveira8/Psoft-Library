@@ -1,9 +1,9 @@
-package com.project.psoft.readermanagement.infrastructure.repositories.impl;
+package com.sidis.Readers.readermanagement.infrastructure.repositories.impl;
 
-import com.project.psoft.exceptions.NotFoundException;
-import com.project.psoft.readermanagement.model.Reader;
-import com.project.psoft.readermanagement.repositories.ReaderRepository;
-import com.project.psoft.readermanagement.services.Page;
+import com.sidis.Readers.exceptions.NotFoundException;
+import com.sidis.Readers.readermanagement.model.Reader;
+import com.sidis.Readers.readermanagement.repositories.ReaderRepository;
+import com.sidis.Readers.readermanagement.services.Page;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.TypedQuery;
 import jakarta.persistence.criteria.CriteriaBuilder;

@@ -1,7 +1,7 @@
-package com.project.psoft.readermanagement.model;
+package com.sidis.Readers.readermanagement.model;
 
-import com.project.psoft.usermanagement.model.Role;
-import com.project.psoft.usermanagement.model.User;
+import com.sidis.Readers.usermanagement.model.Role;
+import com.sidis.Readers.usermanagement.model.User;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

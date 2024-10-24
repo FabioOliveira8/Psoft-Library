@@ -23,16 +23,16 @@ package com.sidis.Readers.bootstrapping;
 import com.sidis.Readers.readermanagement.model.Reader;
 import com.sidis.Readers.readermanagement.model.ReaderNumber;
 import com.sidis.Readers.readermanagement.repositories.ReaderRepository;
-//import com.project.psoft.usermanagement.model.Role;
-//import com.project.psoft.usermanagement.model.User;
-//import com.project.psoft.usermanagement.repositories.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Profile;
 import org.springframework.core.annotation.Order;
+import org.springframework.security.core.userdetails.User;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.client.RestTemplate;
+
 /**
  * Spring will load and execute all components that implement the interface
  * CommandLineRunner on startup, so we will use that as a way to bootstrap some
@@ -49,73 +49,42 @@ import org.springframework.transaction.annotation.Transactional;
 @Profile("bootstrap")
 @Order(2)
 public class UserBootstrapper implements CommandLineRunner {
-    private final UserRepository userRepo;
+
+//    private final UserRepository userRepo;
     private final ReaderRepository readerRepo;
     private final PasswordEncoder encoder;
     private final ReaderNumber readerNumGen = new ReaderNumber();
+    private final RestTemplate restTemplate;
+
+    // URL do serviço de Users
+    private final String userServiceUrl = "http://localhost:8081/api/users";  // Ajuste para o endereço correto
+
     @Override
     @Transactional
     public void run(final String... args) throws Exception {
-        //Admin
-//        if (userRepo.findByUsername("ranheta1@mail.com").isEmpty()) {
-//            final User u2 = User.newUser("ranheta1@mail.com", encoder.encode("facada"), "Ervilha", Role.ADMIN);
-//            userRepo.save(u2);
-//        }
-//        //Librarian
-//        if (userRepo.findByUsername("u1@mail.com").isEmpty()) {
-//            final User u1 = new User("u1@mail.com", encoder.encode("Password1"));
-//            u1.addAuthority(new Role(Role.LIBRARIAN));
-//            userRepo.save(u1);
-//        }
-//        if (userRepo.findByUsername("mary@mail.com").isEmpty()) {
-//            final User u3 = new User("mary@mail.com", encoder.encode("Password1"));
-//            u3.addAuthority(new Role(Role.LIBRARIAN));
-//            userRepo.save(u3);
-//        }
 
         //Reader
         if (readerRepo.findByUsername("mary1@mail.com").isEmpty()) {
-            final User us1 = new User("mary1@mail.com", encoder.encode("myMy123!"));
+            // Faz a requisição ao serviço de Users para criar o usuário
+            String username = "mary1@mail.com";
+            String password = "myMy123!";
+
+            // Chama o método que cria o User no serviço de Users via HTTP
+            createdUser = createUser(username,password);
             final Reader r1 = Reader.newReader("mary1@mail.com", "Mary 1","02/12/2002","123456789","yes",us1);
             r1.setReaderNumber(readerNumGen.generate(readerNumGen.getNextReaderNumber(readerRepo)));
-            userRepo.save(us1);
             readerRepo.save(r1);
         }
-        if (readerRepo.findByUsername("mary2@mail.com").isEmpty()) {
-            final User us2 = new User("mary2@mail.com", encoder.encode("myMy123!"));
-            final Reader r2 = Reader.newReader("mary2@mail.com","Mary 2","02/12/2002","123456789","yes",us2);
-            r2.setReaderNumber(readerNumGen.generate(readerNumGen.getNextReaderNumber(readerRepo)));
-            userRepo.save(us2);
-            readerRepo.save(r2);
-        }
-        if (readerRepo.findByUsername("mary3@mail.com").isEmpty()) {
-            final User us3 = new User("mary3@mail.com", encoder.encode("myMy123!"));
-            final Reader r3 = Reader.newReader("mary3@mail.com", "Mary 3","02/12/2002","123456789","yes", us3);
-            r3.setReaderNumber(readerNumGen.generate(readerNumGen.getNextReaderNumber(readerRepo)));
-            userRepo.save(us3);
-            readerRepo.save(r3);
-        }
-        if (readerRepo.findByUsername("mary4@mail.com").isEmpty()) {
-            final User us4 = new User("mary4@mail.com", encoder.encode("myMy123!"));
-            final Reader r4 = Reader.newReader("mary4@mail.com", "Mary 4","02/12/2002","123456789","yes",us4);
-            r4.setReaderNumber(readerNumGen.generate(readerNumGen.getNextReaderNumber(readerRepo)));
-            userRepo.save(us4);
-            readerRepo.save(r4);
-        }
-        if (readerRepo.findByUsername("mary5@mail.com").isEmpty()) {
-            final User us5 = new User("mary5@mail.com", encoder.encode("myMy123!"));
-            final Reader r5 = Reader.newReader("mary5@mail.com", "Mary 5","02/12/2002","123456789","yes",us5);
-            r5.setReaderNumber(readerNumGen.generate(readerNumGen.getNextReaderNumber(readerRepo)));
-            userRepo.save(us5);
-            readerRepo.save(r5);
-        }
-        if (readerRepo.findByUsername("mary6@mail.com").isEmpty()) {
-            final User us6 = new User("mary6@mail.com", encoder.encode("myMy123!"));
-            final Reader r6 = Reader.newReader("mary6@mail.com", "Mary 6","02/12/2002","123456789","yes",us6);
-            r6.setReaderNumber(readerNumGen.generate(readerNumGen.getNextReaderNumber(readerRepo)));
-            userRepo.save(us6);
-            readerRepo.save(r6);
-        }
+    }
 
+    // Método para fazer requisição ao serviço Users e criar um usuário
+    private User createUser(String username, String password) {
+        // Cria o request para o serviço de Users
+        CreateUserRequest request = new CreateUserRequest();
+        request.setUsername(username);
+        request.setPassword(password);
+
+        // Faz a requisição POST para o serviço de Users
+        return restTemplate.postForObject(userServiceUrl, request, User.class);
     }
 }

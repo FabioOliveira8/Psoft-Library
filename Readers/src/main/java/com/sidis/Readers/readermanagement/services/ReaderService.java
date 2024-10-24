@@ -1,19 +1,19 @@
-package com.project.psoft.readermanagement.services;
+package com.sidis.Readers.readermanagement.services;
 
-import com.project.psoft.bookmanagement.model.Book;
-import com.project.psoft.bookmanagement.repositories.BookRepository;
-import com.project.psoft.bookmanagement.utils.CoverUrlUtil;
-import com.project.psoft.exceptions.ConflictException;
-import com.project.psoft.exceptions.NotFoundException;
-import com.project.psoft.forbiddenWords.repository.ForbiddenwordRepository;
-import com.project.psoft.genre.repository.GenreRepository;
-import com.project.psoft.lendingmanagement.repositories.LendingRepository;
-import com.project.psoft.readermanagement.model.*;
-import com.project.psoft.readermanagement.repositories.ReaderPfpRepository;
-import com.project.psoft.readermanagement.repositories.ReaderRepository;
-import com.project.psoft.usermanagement.model.Role;
-import com.project.psoft.usermanagement.model.User;
-import com.project.psoft.usermanagement.repositories.UserRepository;
+//import com.sidis.Readers.bookmanagement.model.Book;
+//import com.sidis.Readers.bookmanagement.repositories.BookRepository;
+//import com.sidis.Readers.bookmanagement.utils.CoverUrlUtil;
+import com.sidis.Readers.exceptions.ConflictException;
+import com.sidis.Readers.exceptions.NotFoundException;
+import com.sidis.Readers.forbiddenWords.repository.ForbiddenwordRepository;
+//import com.sidis.Readers.genre.repository.GenreRepository;
+//import com.sidis.Readers.lendingmanagement.repositories.LendingRepository;
+import com.sidis.Readers.readermanagement.model.*;
+import com.sidis.Readers.readermanagement.repositories.ReaderPfpRepository;
+import com.sidis.Readers.readermanagement.repositories.ReaderRepository;
+//import com.sidis.Readers.usermanagement.model.Role;
+//import com.sidis.Readers.usermanagement.model.User;
+//import com.sidis.Readers.usermanagement.repositories.UserRepository;
 import jakarta.validation.Valid;
 import jakarta.validation.ValidationException;
 import jakarta.validation.constraints.NotNull;
@@ -34,11 +34,11 @@ import java.util.Set;
 @RequiredArgsConstructor
 public class ReaderService {
     private final ReaderRepository readerRepo;
-    private final UserRepository userRepo;
+//    private final UserRepository userRepo;
     private final ForbiddenwordRepository fwRepo;
-    private final BookRepository bookRepo;
-    private final GenreRepository genreRepo;
-    private final LendingRepository lendingRepo;
+//    private final BookRepository bookRepo;
+//    private final GenreRepository genreRepo;
+//    private final LendingRepository lendingRepo;
     private final ReaderPfpRepository readerPfpRepo;
     private final ReaderEditMapper readerEditMapper;
     private final Password passVal = new Password();
@@ -126,37 +126,37 @@ public class ReaderService {
         return readers;
     }
 
-    public List<Book> getBookSuggestions(Page page, final String username){
-        if (page == null) {
-            page = new Page(1, 5);
-        }
+//    public List<Book> getBookSuggestions(Page page, final String username){
+//        if (page == null) {
+//            page = new Page(1, 5);
+//        }
+//
+//        Reader reader = readerRepo.getByUsername(username);
+//
+//        Set<String> interestList = reader.getInterestList();
+//
+//        if(reader.getInterestList().isEmpty()){
+//
+//            interestList = lendingRepo.getTopGenres();
+//
+//        }
+//        final List<Book> books = bookRepo.getBookSuggestions(page, interestList);
+//        if (books.isEmpty()) {
+//            throw new NotFoundException("No books found.");
+//        }
+//
+//        books.forEach(book -> {
+//            if (book.getCoverUrl() != null && !book.getCoverUrl().isEmpty()) {
+//                book.setCoverUrl(CoverUrlUtil.generateSimplifiedCoverUrl(book.getIsbn()));
+//            }
+//        });
+//
+//        return books;
+//    }
 
-        Reader reader = readerRepo.getByUsername(username);
-
-        Set<String> interestList = reader.getInterestList();
-
-        if(reader.getInterestList().isEmpty()){
-
-            interestList = lendingRepo.getTopGenres();
-
-        }
-        final List<Book> books = bookRepo.getBookSuggestions(page, interestList);
-        if (books.isEmpty()) {
-            throw new NotFoundException("No books found.");
-        }
-
-        books.forEach(book -> {
-            if (book.getCoverUrl() != null && !book.getCoverUrl().isEmpty()) {
-                book.setCoverUrl(CoverUrlUtil.generateSimplifiedCoverUrl(book.getIsbn()));
-            }
-        });
-
-        return books;
-    }
-
-    public List<Reader> getTopReaders(){
-        return lendingRepo.getTopReaders();
-    }
+//    public List<Reader> getTopReaders(){
+//        return lendingRepo.getTopReaders();
+//    }
 
     @Transactional
     public ReaderPfp createProfilePic(final Reader reader, final MultipartFile pfpFile){
@@ -221,9 +221,9 @@ public class ReaderService {
         return readers;
     }
 
-    public List<Reader> getReadersByEmail(final String email, com.project.psoft.usermanagement.services.@Valid @NotNull Page page){
+    public List<Reader> getReadersByEmail(final String email, com.sidis.Readers.usermanagement.services.@Valid @NotNull Page page){
         if (page == null) {
-            page = new com.project.psoft.usermanagement.services.Page(1,5);
+            page = new com.sidis.Readers.usermanagement.services.Page(1,5);
         }
         Pageable pageable = PageRequest.of(page.getNumber()-1, page.getLimit());
 

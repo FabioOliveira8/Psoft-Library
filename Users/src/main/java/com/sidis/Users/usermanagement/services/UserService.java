@@ -21,6 +21,7 @@
 package com.sidis.Users.usermanagement.services;
 
 import com.sidis.Users.exceptions.ConflictException;
+import com.sidis.Users.exceptions.NotFoundException;
 import com.sidis.Users.usermanagement.model.User;
 import com.sidis.Users.usermanagement.repositories.UserRepository;
 import jakarta.validation.ValidationException;
@@ -116,4 +117,5 @@ public class UserService implements UserDetailsService {
 		}
 		return userRepo.searchUsers(page, query);
 	}
+
 }

@@ -1,6 +1,6 @@
-package com.project.psoft.readermanagement.api;
+package com.sidis.Readers.readermanagement.api;
 
-import com.project.psoft.readermanagement.model.Reader;
+import com.sidis.Readers.readermanagement.model.Reader;
 import org.mapstruct.Mapper;
 
 import java.util.List;

@@ -1,6 +1,6 @@
-package com.project.psoft.readermanagement.services;
+package com.sidis.Readers.readermanagement.services;
 
-import com.project.psoft.readermanagement.model.Reader;
+import com.sidis.Readers.readermanagement.model.Reader;
 import org.mapstruct.*;
 
 @Mapper(componentModel = "spring")

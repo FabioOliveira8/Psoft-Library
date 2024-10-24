@@ -1,4 +1,4 @@
-package com.project.psoft.readermanagement.model;
+package com.sidis.Readers.readermanagement.model;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

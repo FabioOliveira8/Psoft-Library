@@ -18,9 +18,9 @@
  * DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-package com.project.psoft.exceptions;
+package com.sidis.Readers.exceptions;
 
-import com.project.psoft.bookmanagement.model.Book;
+//import com.sidis.Readers.bookmanagement.model.Book;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
@@ -48,15 +48,15 @@ public class NotFoundException extends RuntimeException {
 		super(String.format("Entity %s with id %d not found", clazz.getSimpleName(), id));
 	}
 
-	public NotFoundException(final Class<?> clazz, final String id) {
-		super(formatMessage(clazz, id));
-	}
+//	public NotFoundException(final Class<?> clazz, final String id) {
+//		super(formatMessage(clazz, id));
+//	}
 
-	private static String formatMessage(final Class<?> clazz, final String id) {
-		String idType = "id";
-		if (Book.class.equals(clazz)) {
-			idType = "ISBN";
-		}
-		return String.format("Entity %s with %s %s not found", clazz.getSimpleName(), idType, id);
-	}
+//	private static String formatMessage(final Class<?> clazz, final String id) {
+//		String idType = "id";
+//		if (Book.class.equals(clazz)) {
+//			idType = "ISBN";
+//		}
+//		return String.format("Entity %s with %s %s not found", clazz.getSimpleName(), idType, id);
+//	}
 }

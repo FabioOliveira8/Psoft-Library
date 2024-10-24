@@ -1,7 +1,7 @@
-package com.project.psoft.bootstrapping;
+package com.sidis.Readers.bootstrapping;
 
-import com.project.psoft.forbiddenWords.model.Forbiddenword;
-import com.project.psoft.forbiddenWords.repository.ForbiddenwordRepository;
+import com.sidis.Readers.forbiddenWords.model.Forbiddenword;
+import com.sidis.Readers.forbiddenWords.repository.ForbiddenwordRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Profile;
